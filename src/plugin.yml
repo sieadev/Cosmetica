@@ -1,0 +1,9 @@
+name: Cosmetica
+version: 1.0
+author: Siea
+main: com.siea.cosmetica.Cosmetica
+commands:
+  cosmetica:
+    usage: /cosmetica
+    description: Change and view Cosmetics
+    aliases: [cos, cosmetic]
