@@ -13,7 +13,7 @@ public class onJoin implements Listener {
 
         //Spawn Pet
             String pet = null; //Get selected pet
-            spawnPet spawnPet = new com.siea.cosmetica.util.spawnPet(p, pet, true);
+            spawnPet.spawnPetOnJoin(p, pet);
 
         //setArmor
 

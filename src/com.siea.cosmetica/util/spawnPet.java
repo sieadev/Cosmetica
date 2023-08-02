@@ -3,16 +3,22 @@ package com.siea.cosmetica.util;
 import org.bukkit.entity.Player;
 
 public class spawnPet {
-    public spawnPet(Player p, String pet, boolean join){
+    public spawnPet(Player p, String pet){
             if (allowPet(p)){
                 //Spawn Pet
             }
-            else if (!join){
+            else{
                 p.sendMessage("You cant spawn your pet here");
             }
-            else{
-                if (pet != null) p.sendMessage("Pets are not allowed on this Server, so your pet was disabled.");
-            }
+    }
+
+    public spawnPetonJoin(Player p, String pet){
+        if (allowPet(p)){
+            //Spawn Pet
+        }
+        else{
+            if (pet != null) p.sendMessage("Pets are not allowed on this Server, so your pet was disabled.");
+        }
     }
 
     public boolean allowPet(Player p){
