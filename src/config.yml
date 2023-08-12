@@ -1,0 +1,24 @@
+# Cosmetica
+# Repository: https://github.com/sieadev/cosmetica
+# Authors: siea
+
+
+#             Contact:
+# Discord - dsc.gg/siea || @sieadev
+# Github - https://github.com/sieadev
+
+# How to use the config:
+# For colored text use ColourCodes exp: "&c" for red
+# Use %player% to pass in the Player
+
+prefix: "§e[Cosmetica]"
+
+# Set how you would like messages to be displayed
+chatMessages: false
+titleMessages: false
+subTitleMessages: true
+
+# Configure title
+fadeIn: 5
+stay: 30
+fadeOut: 5
