@@ -1,10 +1,11 @@
 package com.siea.cosmetica.util;
 
+import com.siea.cosmetica.Cosmetica;
 import org.bukkit.entity.Player;
 
 public class spawnPet {
-    public spawnPet(Player p, String pet){
-            if (allowPet(p)){
+    public void spawnPet(Player p, String pet){
+            if (Cosmetica.allowPets(p)){
                 //Spawn Pet
             }
             else{
@@ -12,8 +13,8 @@ public class spawnPet {
             }
     }
 
-    public spawnPetonJoin(Player p, String pet){
-        if (allowPet(p)){
+    public static void spawnPetonJoin(Player p, String pet){
+        if (Cosmetica.allowPets(p)){
             //Spawn Pet
         }
         else{
@@ -21,9 +22,4 @@ public class spawnPet {
         }
     }
 
-    public boolean allowPet(Player p){
-        String server = p.getServer().getName();
-        if (server.equalsIgnoreCase("build") || server.equalsIgnoreCase("lobby")) return true;
-        return false;
-    }
 }

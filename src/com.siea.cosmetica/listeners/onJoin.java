@@ -13,7 +13,7 @@ public class onJoin implements Listener {
 
         //Spawn Pet
             String pet = null; //Get selected pet
-            spawnPet.spawnPetOnJoin(p, pet);
+            spawnPet.spawnPetonJoin(p, pet);
 
         //setArmor
 

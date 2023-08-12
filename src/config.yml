@@ -22,3 +22,8 @@ subTitleMessages: true
 fadeIn: 5
 stay: 30
 fadeOut: 5
+
+# Servers that allow Pets, Hats, Armor etc.
+allowPets: [lobby, lobby2, lobby3, smp]
+allowHats: [lobby, lobby2, lobby3]
+allowArmor: [lobby, lobby2, lobby3]
