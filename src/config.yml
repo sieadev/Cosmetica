@@ -10,6 +10,7 @@
 # How to use the config:
 # For colored text use ColourCodes exp: "&c" for red
 # Use %player% to pass in the Player
+# Use %petNickname% to pass in the pets nickname 
 
 prefix: "§e[Cosmetica]"
 
@@ -17,6 +18,13 @@ prefix: "§e[Cosmetica]"
 chatMessages: false
 titleMessages: false
 subTitleMessages: true
+
+# Enable or disable Cosmetic Types
+pets: true
+effects: true
+costumes: true
+hats: true
+soundEffects: true
 
 # Configure title
 fadeIn: 5
@@ -26,4 +34,14 @@ fadeOut: 5
 # Servers that allow Pets, Hats, Armor etc.
 allowPets: [lobby, lobby2, lobby3, smp]
 allowHats: [lobby, lobby2, lobby3]
-allowArmor: [lobby, lobby2, lobby3]
+allowCostumes: [lobby, lobby2, lobby3]
+allowEffects: [lobby, lobby2, lobby3]
+allowSoundEffects: [lobby, lobby2, lobby3]
+
+# Pet settings
+petSounds: true
+petNicknames: true
+allowPetRiding: true
+
+#
+
